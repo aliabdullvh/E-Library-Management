@@ -8,6 +8,7 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="datatables/css/dataTables.dataTables.min.css" rel="stylesheet" />
     <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <link href="css/customstylesheet.css" rel="stylesheet" />
 
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -88,10 +89,13 @@
                 </div>
 
             </div>
-            <p>
-                &copy All Rights Reserved. <a class="footerlinks" href="#" target="_blank">E-Library</a>
-            </p>
-
+            <div id="footer2" class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p style="color: whitesmoke">&copy All Rights Reserved. <a class="footerlinks" href="#" target="_blank">E-Library</a></p>
+                    </div>
+                </div>
+            </div>
         </footer>
     </form>
 </body>
